@@ -21,12 +21,12 @@
 					}
 				},
 				"url": {
-					"raw": "https://localhost:5000/Weather/address",
-					"protocol": "https",
+					"raw": "http://localhost:5000/Weather/address",
+					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "7248",
+					"port": "5000",
 					"path": [
 						"Weather",
 						"address"
@@ -55,10 +55,30 @@
 					"host": [
 						"localhost"
 					],
-					"port": "7248",
+					"port": "5000",
 					"path": [
 						"Weather",
 						"location"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "barcode-generator",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/barcode/038000356216",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"barcode",
+						"038000356216"
 					]
 				}
 			},

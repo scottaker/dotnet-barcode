@@ -1,9 +1,15 @@
-# dotnet-simple-api
+# dotnet-barcode
 A simple example of an api in dotnet that provides data as well as consuming outside APIs.
 
+## To Run (barcode)
+- use visual studio to build the solution
+	- build >> build solution
+- use visual studio to run the solution
+	- debug >> start debugging (F5)
+- consume the barcode service
+	-	http://localhost:5000/barcode/038000356216
 
-
-## To Run
+## To Run (api consumers)
 - get keys from rapidapi (urls listed below)
 - add these keys to the appsettings.json file in the SimpleApi.API project
 - use visual studio to build the solution

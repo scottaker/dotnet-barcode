@@ -16,7 +16,7 @@ public class BarcodeController : ControllerBase
 
 
     [HttpGet("{value}")]
-    public IActionResult Generate([FromQuery] string value)
+    public IActionResult Generate([FromRoute] string value)
     {
         var barcode = _barcodeService.GenerateBarcode(value);
 
